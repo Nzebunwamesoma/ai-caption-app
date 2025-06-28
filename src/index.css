@@ -4,7 +4,7 @@
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border-gray-200;
   }
   
   body {
@@ -54,3 +54,4 @@
   60% { content: '..'; }
   80%, 100% { content: '...'; }
 }
+</parameter>
