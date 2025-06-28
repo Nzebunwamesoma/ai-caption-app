@@ -1,28 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>AI Caption + Hashtag Generator</title>
-  <meta charset="UTF-8" />
-</head>
-<body>
-  <h1>Instagram Caption & Hashtag Generator</h1>
-
-  <label>What is your post about?</label><br />
-  <textarea id="postContent" rows="4" cols="50" placeholder="Describe your photo or post..."></textarea><br /><br />
-
-  <label>Choose a tone:</label><br />
-  <select id="tone">
-    <option value="funny">Funny</option>
-    <option value="professional">Professional</option>
-    <option value="romantic">Romantic</option>
-    <option value="motivational">Motivational</option>
-  </select><br /><br />
-
-  <button onclick="generateCaption()">Generate Caption</button>
-
-  <h3>Result:</h3>
-  <pre id="output">Your caption will appear here...</pre>
-
-  <script src="script.js"></script>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="AI-powered Instagram caption and hashtag generator with multiple tones and styles" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>AI Caption Generator - Create Engaging Social Media Content</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
